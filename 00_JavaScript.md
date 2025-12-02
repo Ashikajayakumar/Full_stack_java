@@ -1,23 +1,26 @@
                                                  JAVASCRIPT
-                                                 
+
+<h1 align="center"><b> DEFINE A JAVASCRIPT</b></h1>
+
 
 * "Logic of the Website".
 * Initially created to “MAKE WEB PAGES COME ALIVE” (i.e., make them interactive).
 * The programs written in JavaScript are called “Scripts.”
 * JavaScript is written inside a web page using HTML, and it runs **automatically when the page loads**.
 
-**Why is it called JavaScript ?**
+<h1 align="center"><b>Why is it called JavaScript?</b></h1>
+
 
 * The original name of JavaScript was “LiveScript.”
 * Dueing the time, **Java was very popular**, so the creators renamed LiveScript to “JavaScript” to take advantage of Java’s popularity.
 * JavaScript can execute **not only in browser** ,but also on the server or actually on the any device that has a special program call **"Javascript Engine"**.
 
-**JAVASCRIPT ENGINE  Name**
+<h1 align="center"><b>JavaScript Engine Names</b></h1>
 
 * **V8** - in chrome,Opera and edge.
 * **Spider Monkey** - Fire Fox
   
-**JS Engine purpose**
+<h1 align="center"><b>Purpose of a JavaScript Engine</b></h1>
 
 * Read the script.
 * Converts script to **Machine code**.
@@ -41,7 +44,7 @@ Example: A website cannot read your Gmail, banking, or any other open tabs.
 
 This is done using APIs like fetch(), XHR, or AJAX, but only with servers it is allowed to talk to.
 
-**ECMA Scripts**
+<h1 align="center"><b>ECMA Script</b></h1>
 
  *  **ECMAScripts** is  offical stanadard behind JavaScript.
  *  Created by **Brendan Eich** at **Netscape**.
