@@ -23,18 +23,22 @@
 * Converts script to **Machine code**.
 * Runs,preety  **very fast**.
 
-  #JavaScript – What It CAN’T and CAN Do (Browser Level)
+  #JavaScript – What It CAN’T and CAN Do (Browser Level)#
 
 🔒 1. **JavaScript CANNOT read or write files on your computer**.
+
 Your local files are safe. JavaScript running in a browser has no direct access to your system files.
 
 🎥 2. **JavaScript CANNOT secretly open your camera or microphone**.
+
 Camera/Mic access always requires your permission through a browser popup.
 
 🗂 3. **Websites CANNOT access other browser tabs**
+
 Example: A website cannot read your Gmail, banking, or any other open tabs.
 
 🌐 4. **JavaScript CAN communicate with its own server normally**.
+
 This is done using APIs like fetch(), XHR, or AJAX, but only with servers it is allowed to talk to.
 
 **ECMA Scripts**
