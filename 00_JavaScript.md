@@ -1,6 +1,6 @@
                                                  JAVASCRIPT
 
-<h1 align="center"><b> DEFINE A JAVASCRIPT</b></h1>
+<h2 align="center"><b> DEFINE A JAVASCRIPT</b></h2>
 
 
 * "Logic of the Website".
@@ -8,25 +8,25 @@
 * The programs written in JavaScript are called “Scripts.”
 * JavaScript is written inside a web page using HTML, and it runs **automatically when the page loads**.
 
-<h1 align="center"><b>Why is it called JavaScript?</b></h1>
+<h2 align="center"><b>Why is it called JavaScript?</b></h2>
 
 
 * The original name of JavaScript was “LiveScript.”
 * Dueing the time, **Java was very popular**, so the creators renamed LiveScript to “JavaScript” to take advantage of Java’s popularity.
 * JavaScript can execute **not only in browser** ,but also on the server or actually on the any device that has a special program call **"Javascript Engine"**.
 
-<h1 align="center"><b>JavaScript Engine Names</b></h1>
+<h2 align="center"><b>JavaScript Engine Names</b></h2>
 
 * **V8** - in chrome,Opera and edge.
 * **Spider Monkey** - Fire Fox
   
-<h1 align="center"><b>Purpose of a JavaScript Engine</b></h1>
+<h3 align="center"><b>Purpose of a JavaScript Engine</b></h3>
 
 * Read the script.
 * Converts script to **Machine code**.
 * Runs,preety  **very fast**.
 
-<h1 align="center"><b>JavaScript – What It CAN’T and CAN Do (Browser Level)</b></h1>
+<h2 align="center"><b>JavaScript – What It CAN’T and CAN Do (Browser Level)</b></h2>
 
 🔒 1. **JavaScript CANNOT read or write files on your computer**.
 
@@ -44,7 +44,7 @@ Example: A website cannot read your Gmail, banking, or any other open tabs.
 
 This is done using APIs like fetch(), XHR, or AJAX, but only with servers it is allowed to talk to.
 
-<h1 align="center"><b>ECMA Script</b></h1>
+<h3  align="center"><b>ECMA Script</b></h3>
 
  *  **ECMAScripts** is  offical stanadard behind JavaScript.
  *  Created by **Brendan Eich** at **Netscape**.
