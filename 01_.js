@@ -1,4 +1,4 @@
-<h1 align="center"><b>How to display the HELLO WORLD ?</b></h1>
+                                                             How to display the HELLO WORLD 
 
  1.Console.log(" "):
 
