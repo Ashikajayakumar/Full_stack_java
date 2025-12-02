@@ -23,7 +23,7 @@
 * Converts script to **Machine code**.
 * Runs,preety  **very fast**.
 
-  #JavaScript – What It CAN’T and CAN Do (Browser Level)#
+<h1 align="center"><b>JavaScript – What It CAN’T and CAN Do (Browser Level)</b></h1>
 
 🔒 1. **JavaScript CANNOT read or write files on your computer**.
 
