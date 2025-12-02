@@ -23,10 +23,10 @@
 * Converts script to **Machine code**.
 * Runs,preety  **very fast**.
 
-  **ECMA Scripts**
+**ECMA Scripts**
 
-  *  **ECMAScripts** is  offical stanadard behind JavaScript.
-  *  Created by **Brendan Eich** at **Netscape**.
-  *  The Standarization process handled by **ECMA International**.
-  *  ECMA  used to **Syntax,Semantics,Features**.
+ *  **ECMAScripts** is  offical stanadard behind JavaScript.
+ *  Created by **Brendan Eich** at **Netscape**.
+ *  The Standarization process handled by **ECMA International**.
+ *  ECMA  used to **Syntax,Semantics,Features**.
   
