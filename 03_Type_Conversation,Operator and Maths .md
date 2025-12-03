@@ -53,10 +53,10 @@ alert(typeof num); // number
 
                                                                Basic operators
 
-   ###
-   1.“unary”, “binary”, “operand”
-   2.Assignment
-   3. Modify-in-place
-   4.Increment/decrement
-   5.Bitwise operators
+1. “unary”, “binary”, “operand”
+2. Assignment
+3. Modify-in-place
+4. Increment/decrement
+5. Bitwise operators
+
    
