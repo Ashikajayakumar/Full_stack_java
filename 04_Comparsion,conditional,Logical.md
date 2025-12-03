@@ -1,4 +1,4 @@
-                                                                                        COMPARSION
+                                                                      COMPARSION
 
 <h2 style="text-align:center;"><b> 1.Boolean Comparsion </b></h2>
 
@@ -49,7 +49,7 @@ alert( undefined == 0 ); // false (3)
 
 
 
-                                                                                  Conditional  Statement 
+                                                                     Conditional  Statement 
 <h2 align="center"><b>If condition </b></h2>
 
 
