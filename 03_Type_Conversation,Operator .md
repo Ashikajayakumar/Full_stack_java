@@ -1,0 +1,46 @@
+                                                                           TYPE CONVERSATION
+
+<h2 align="centre"><b>TYPE CONVERSATION </b></h2>
+
+* Most of the time, operators and functions automatically convert the values given to them to the right type.
+* For example, ```alert``` automatically converts any value to a string to show it. Mathematical operations convert values to numbers.
+
+  
+
+  <h2 align=" align="text-align:center;""><b>TYPE CONVERSATION </b></h2>
+
+
+ ```js
+let value = true;
+alert(typeof value); // boolean
+value = String(value); // now value is a string "true"
+alert(typeof value); // string
+```
+
+
+ <h2 align=" align="text-align:center;""><b>Numeric Conversion</b></h2>
+
+ ```js
+alert( "6" / "2" ); // 3, strings are converted to numbers
+```
+* We can use the ```Number(value)``` function to explicitly convert a ```value``` to a number:
+```
+let str = "123";
+alert(typeof str); // string
+let num = Number(str); // becomes a number 123
+alert(typeof num); // number
+```
+
+ <h2 align=" align="text-align:center;""><b>Boolean Conversion</b></h2>
+
+ * Boolean conversion is the simplest one.
+
+   It happens in logical operations (later we’ll meet condition tests and other similar things) but can also be performed explicitly with a call to ```Boolean(value).```
+
+   ```
+   alert( Boolean(1) ); // true
+   alert( Boolean(0) ); // false
+   alert( Boolean("hello") ); // true
+   alert( Boolean("") ); // false
+   ```
+   
