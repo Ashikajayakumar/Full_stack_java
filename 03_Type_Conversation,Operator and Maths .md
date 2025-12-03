@@ -59,7 +59,7 @@ alert(typeof num); // number
 4. Increment/decrement
 5. Bitwise operators
 
-<h2 style="text-align:center;"><b>“Unary”, “Binary”, “Operand”</b></h2>
+<h2 style="text-align:center;"><b> 1.“Unary”, “Binary”, “Operand”</b></h2>
 
  <h3 align="center""><b> A. Unary </b></h3>
 
@@ -110,4 +110,77 @@ alert( +y ); // -2
 alert( +true ); // 1
 alert( +"" );   // 0
 ```
-   
+
+<h2 style="text-align:center;"><b>2. Assignment</b></h2>
+
+* assignment ```=``` is also an operator
+
+<h3 align="centre"><b> A.Assignment = returns a value</b></h3>
+
+* The fact of ```=``` being an operator, not a “magical” language construct has an interesting implication.
+* All operators in JavaScript return a value. That’s obvious for ```+``` and ```-```, but also true for ```=```.
+* The call ``` x = value``` writes the ```value``` into ```x``` and then returns it.
+
+```js
+let a = 1;
+let b = 2;
+
+let c = 3 - (a = b + 1);
+
+alert( a ); // 3
+alert( c ); // 0
+```
+
+<h3 align="centre"><b> B. Chaining assignments </b>
+  
+```js 
+let a, b, c;
+a = b = c = 2 + 2;
+alert( a ); // 4
+alert( b ); // 4
+alert( c ); // 4
+```
+
+<h2 style="text-align:centre"><b>  3. Modify-in-place </b></h2>
+
+* This notation can be shortened using the operators ```+=``` and ```*=```
+  
+```js
+let n = 2;
+n += 5; // now n = 7 (same as n = n + 5)
+n *= 2; // now n = 14 (same as n = n * 2)
+alert( n ); // 14
+```
+
+<h2 style="text-align:centre"><b> 4. Increment/decrement</b>
+
+### Increment
+```js
+let counter = 2;
+counter++;        // works the same as counter = counter + 1, but is shorter
+alert( counter ); // 3
+```
+
+### Decrement
+```js
+let counter = 2;
+counter--;        // works the same as counter = counter - 1, but is shorter
+alert( counter ); // 1
+```
+
+
+
+<h2 style="text-align:centre"><b> 5. Bitwise operators </b></h2>
+
+* Bitwise operators treat arguments as 32-bit integer numbers and work on the level of their binary representation.
+* These operators are not JavaScript-specific. They are supported in most programming languages.
+
+The list of operators:
+
+AND ( & )
+OR ( | )
+XOR ( ^ )
+NOT ( ~ )
+LEFT SHIFT ( << )
+RIGHT SHIFT ( >> )
+ZERO-FILL RIGHT SHIFT ( >>> )
