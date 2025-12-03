@@ -59,7 +59,7 @@ alert(typeof num); // number
 4. Increment/decrement
 5. Bitwise operators
 
-<h2 align="center;"><b> 1.“Unary”, “Binary”, “Operand”</b></h2>
+<h2 align="center"><b> 1.“Unary”, “Binary”, “Operand”</b></h2>
 
  <h3 align="center""><b> A. Unary </b></h3>
 
@@ -141,7 +141,7 @@ alert( b ); // 4
 alert( c ); // 4
 ```
 
-<h2 align="centre"><b>  3. Modify-in-place </b></h2>
+<h2 align="center"><b>  3. Modify-in-place </b></h2>
 
 * This notation can be shortened using the operators ```+=``` and ```*=```
   
@@ -152,7 +152,7 @@ n *= 2; // now n = 14 (same as n = n * 2)
 alert( n ); // 14
 ```
 
-<h2 align="centre"><b> 4. Increment/decrement</b>
+<h2 align="center"><b> 4. Increment/decrement</b>
 
 ### Increment
 ```js
@@ -170,7 +170,7 @@ alert( counter ); // 1
 
 
 
-<h2 align="centre"><b> 5. Bitwise operators </b></h2>
+<h2 align="center"><b> 5. Bitwise operators </b></h2>
 
 * Bitwise operators treat arguments as 32-bit integer numbers and work on the level of their binary representation.
 * These operators are not JavaScript-specific. They are supported in most programming languages.
