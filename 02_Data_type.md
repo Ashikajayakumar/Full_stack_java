@@ -81,7 +81,7 @@ console.log(typeof age); // "object"
 <h2 style="center;"><b>5.undefined </b></h2>
 
 * **undefined** means a variable is **declared but not assigned**.
-* 
+
 ### Example for undefined
 
 ```js
@@ -105,7 +105,7 @@ alert(age); // shows "undefined"
 ```
 
 
-<h3 style="text-align:center;"><b>Symbol </b></h3>
+<h3 style="center;"><b>Symbol </b></h3>
 
 * Symbols create **unique identifiers**.
 * Even if two symbols have the same description, they are *never equal*.
@@ -123,7 +123,7 @@ console.log(id1 === id2);  // false
 
 <h3 style="text-align:center;"><b> 1. alert  </b></h3>
 
-* ```js alert ```  shows a message and waits for the user to press “OK”.
+* ```alert ```  shows a message and waits for the user to press “OK”.
   
  ```js 
  alert("Hello");
@@ -133,7 +133,7 @@ console.log(id1 === id2);  // false
 
 <h3 style="text-align:center;"><b> 2. prompt  </b></h3>
 
-* ```js prompt ``` Ask for user input .
+* ``` prompt ``` Ask for user input .
   
  ```js 
 let test = prompt("Test");
@@ -143,7 +143,7 @@ let test = prompt("Test");
   
 <h3 style="text-align:center;"><b> 3. Confirm  </b></h3>
 
- * The function   ```js confirm ``` shows a modal window with a question and two buttons: **OK and Cancel**.
+ * The function   ``` confirm ``` shows a modal window with a question and two buttons: **OK and Cancel**.
 
   
  ```js 
