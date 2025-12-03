@@ -1,4 +1,4 @@
-                                                        Logical
+                                                            Logical
 
 <h2 align="center"><b>While-Loop</b></h2>
 
