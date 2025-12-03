@@ -9,6 +9,7 @@
 
 
  <h3 align="center"><b> 2. Alert(" "):</b></h3>
+ 
 * Built in  JavaScript function that display a **popup meassage box** to user.                                                                                              * **Interaction** - user must click "OK".
 
 <h3 style="text-align:center;"><b>Example</b></h3>
