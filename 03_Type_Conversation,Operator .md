@@ -7,7 +7,7 @@
 
   
 
-  <h2 align=" align="text-align:center;""><b>TYPE CONVERSATION </b></h2>
+  <h2 align=" align="text-align:center;""><b>STRING CONVERSATION </b></h2>
 
 
  ```js
@@ -24,7 +24,7 @@ alert(typeof value); // string
 alert( "6" / "2" ); // 3, strings are converted to numbers
 ```
 * We can use the ```Number(value)``` function to explicitly convert a ```value``` to a number:
-```
+```js
 let str = "123";
 alert(typeof str); // string
 let num = Number(str); // becomes a number 123
@@ -37,7 +37,7 @@ alert(typeof num); // number
 
    It happens in logical operations (later we’ll meet condition tests and other similar things) but can also be performed explicitly with a call to ```Boolean(value).```
 
-   ```
+   ```js
    alert( Boolean(1) ); // true
    alert( Boolean(0) ); // false
    alert( Boolean("hello") ); // true
