@@ -12,7 +12,7 @@
 
 
 * The original name of JavaScript was “LiveScript.”
-* Dueing the time, **Java was very popular**, so the creators renamed LiveScript to “JavaScript” to take advantage of Java’s popularity.
+* During the time, **Java was very popular**, so the creators renamed LiveScript to “JavaScript” to take advantage of Java’s popularity.
 * JavaScript can execute **not only in browser** ,but also on the server or actually on the any device that has a special program call **"Javascript Engine"**.
 
 <h2 align="center"><b>JavaScript Engine Names</b></h2>
