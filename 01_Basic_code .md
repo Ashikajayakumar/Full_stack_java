@@ -22,7 +22,9 @@
  ```
 
 <h3 align="text-align:center;"><b>Comments</b></h3>
+
 1.Single line - // This is a comment
+
 2.Multiple line- /* 
    This is a 
    multi-line comment 
