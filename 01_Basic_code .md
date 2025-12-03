@@ -83,7 +83,7 @@ y = 20; // Updating is allowed
 // let y = 30; // Error: Cannot redeclare 'y'                                                                                                                                
 console.log(y); // Output: 20                                                                                                                                                
 
-<h3 align="center"><b>Constants </b></h3>
+<h2 align="center"><b>Constants </b></h2>
 
 <h3 align="text-align:center;"><b>Declaring Constants</b></h3>
 
