@@ -15,8 +15,8 @@
 * **Interaction** - user must click "OK".
 
 <h3 style="text-align:center;"><b>Example</b></h3>
-console.log("Hello World");                                                                                                                                                  
-alert("Hello World in Popup");
+ console.log("Hello World");                                                                                                                                                  
+ alert("Hello World in Popup");
 
 <h3 align="text-align:center;"><b>Comments</b></h3>
 1.single line - // This is a comment
@@ -39,10 +39,12 @@ alert("Hello World in Popup");
   
 <h4 align="center"><b> Multiple Variable</b></h4> 
 
+```js
 1. let user='John', age=25;
 2. let user ='John' ,                                                                                                                                                             let age= 25 ;
 3. let user='John' ,                                                                                                                                                                  age=25 ;
 4. let user='John'                                                                                                                                                                   , age=25 ;
+```
 
 <h3 align="center"><b> Rule for Variable</b></h3>
 
@@ -109,11 +111,13 @@ myBirthday = '01.01.2001'; // Error: can't reassign the constant!
 * Constants can be used as aliases for **difficult-to-remember values** that are known before execution.
 * Naming convention: **all uppercase letters with underscores**.
 
-<h3 align="text-align:center;"><b>Example </b></h3>                                                                                                     
+<h3 align="text-align:center;"><b>Example </b></h3>    
+
+```js
 // Using a constant
 let color = COLOR_ORANGE;                                                                                                                                                    
 alert(color); // Output: #FF7F00
-
+```
 
 <h5 align="center"><b>Benefits</b></h5>
 
