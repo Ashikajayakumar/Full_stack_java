@@ -1,4 +1,6 @@
-<h2 align="center"><b> Function </b></h2>
+                                            FUNCTION
+                   
+ <h2 align="center"><b> Function </b></h2>
 * Functions are the main “building blocks” of the program. They allow the code to be called many times without repetition.
 
 <h2 style="text-align:center;"><b> Function Syntax </b></h2>
@@ -62,3 +64,16 @@ function sum(a, b) {
 let result = sum(1, 2);
 alert( result ); // 3
 ```
+
+<h2 align="center"><b> Arrow Function </b></h2>
+
+```js
+let sum = (a, b) => a + b;
+/* This arrow function is a shorter form of:
+let sum = function(a, b) {
+  return a + b;
+};
+*/
+alert( sum(1, 2) ); // 3
+```
+
