@@ -22,8 +22,7 @@
  ```
 
 <h3 align="text-align:center;"><b>Comments</b></h3>
-1.single line - // This is a comment
-
+1.Single line - // This is a comment
 2.Multiple line- /* 
    This is a 
    multi-line comment 
@@ -72,10 +71,11 @@
 
 <h3 align="text-align:center;"><b> Example var</b></h3>
 
+```js
 var x = 10;                                                                                                                                                                  
 var x = 20; // Redeclaration allowed                                                                                                                                         
 console.log(x); // Output: 20                                                                                                                                               
-
+```
 
 <h2 align="text-align:center;"><b>let</b></h2>
 
@@ -86,10 +86,12 @@ console.log(x); // Output: 20
 
 <h3 align="text-align:center;"><b>let Example </b></h3>
 
+```js
 let y = 10;                                                                                                                                                                  
 y = 20; // Updating is allowed                                                                                                                                               
 // let y = 30; // Error: Cannot redeclare 'y'                                                                                                                                
 console.log(y); // Output: 20                                                                                                                                                
+```
 
 <h2 align="center"><b>Constants </b></h2>
 
@@ -99,16 +101,19 @@ console.log(y); // Output: 20
 
 <h3 align="text-align:center;"><b>Example</b></h3>
 
+```js
 const myBirthday = '18.04.1982';
+```
 
 * Variables declared with "const" are called **constants**.
 * They **cannot be reassigned**. Attempting to do so will cause an error.
 
 <h3 align="text-align:center;"><b>Example</b></h3>
 
+```js
 const myBirthday = '18.04.1982';                                                                                                                                    
 myBirthday = '01.01.2001'; // Error: can't reassign the constant!
-
+```
 
 * Use "const" when a variable’s value should **never change**, which also communicates this intention to others.
 
