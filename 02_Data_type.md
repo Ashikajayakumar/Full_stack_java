@@ -1,4 +1,4 @@
-                                                                 # DATA TYPE IN JAVASCRIPT
+                                                                 DATA TYPE IN JAVASCRIPT
 
 ## Data Types
 
@@ -39,11 +39,12 @@ console.log(9007199254740991 + 2); // 9007199254740992
 
 <h2 style="center;"><b>3.String </b></h2>
 
-* In some languages, there is a special “character” type for a single character.
+* In languages like C or Java, a single character has a special type called **char**.
 
-  For example, in the C language and in Java it is called “char”.
+* JavaScript has **only one type: string**.
 
-* In JavaScript, there is no such type. There’s only one type: string. A string may consist of **zero characters (be empty), one character or many of them**.
+   It can be empty, one character, or many characters.
+  
 
 ### Example for Big Integer
 
@@ -55,7 +56,7 @@ let phrase = `can embed another ${str}`;    //Backticks
 
 <h2 style="center;"><b>4.Boolean </b></h2>
 
-* The boolean  types only have values **true** and **false**
+* The boolean  types only have values **true** and **false** values.
   
 
 ### Example for Boolean
@@ -79,8 +80,8 @@ console.log(typeof age); // "object"
 
 <h2 style="center;"><b>5.undefined </b></h2>
 
-* The special value **undefined** also stands apart. It makes a type of its own, just like **null**.
-  
+* **undefined** means a variable is **declared but not assigned**.
+* 
 ### Example for undefined
 
 ```js
@@ -117,4 +118,35 @@ let id2 = Symbol("id");
 console.log(id1 === id2);  // false
 ```
 
+
+<h2 style="center;"><b> Interaction  </b></h2>
+
+<h3 style="text-align:center;"><b> 1. alert  </b></h3>
+
+* ```js alert ```  shows a message and waits for the user to press “OK”.
   
+ ```js 
+ alert("Hello");
+```
+
+
+
+<h3 style="text-align:center;"><b> 2. prompt  </b></h3>
+
+* ```js prompt ``` Ask for user input .
+  
+ ```js 
+let test = prompt("Test");
+```
+
+
+  
+<h3 style="text-align:center;"><b> 3. Confirm  </b></h3>
+
+ * The function   ```js confirm ``` shows a modal window with a question and two buttons: **OK and Cancel**.
+
+  
+ ```js 
+let isBoss = confirm("Are you the boss?");
+alert( isBoss ); // true if OK is pressed
+```
