@@ -16,6 +16,13 @@ alert(typeof value); // boolean
 value = String(value); // now value is a string "true"
 alert(typeof value); // string
 ```
+```js
+let age = 'true';
+console.log(typeof age); // String
+age=Number(age);
+console.log(typeof age);//number
+console.log(age);//NaN
+```
 
 
  <h2 align=" align="text-align:center;""><b>Numeric Conversion</b></h2>
@@ -43,4 +50,13 @@ alert(typeof num); // number
    alert( Boolean("hello") ); // true
    alert( Boolean("") ); // false
    ```
+
+                                                               Basic operators
+
+   ###
+   1.“unary”, “binary”, “operand”
+   2.Assignment
+   3. Modify-in-place
+   4.Increment/decrement
+   5.Bitwise operators
    
