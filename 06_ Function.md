@@ -1,4 +1,4 @@
-                                            FUNCTION
+                                                FUNCTION
                    
  <h2 align="center"><b> Function </b></h2>
 * Functions are the main “building blocks” of the program. They allow the code to be called many times without repetition.
