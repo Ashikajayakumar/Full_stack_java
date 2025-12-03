@@ -15,8 +15,11 @@
 * **Interaction** - user must click "OK".
 
 <h3 style="text-align:center;"><b>Example</b></h3>
- console.log("Hello World");                                                                                                                                                  
+
+```js
+ console.log("Hello World");                                                                                                                                                 
  alert("Hello World in Popup");
+ ```
 
 <h3 align="text-align:center;"><b>Comments</b></h3>
 1.single line - // This is a comment
@@ -41,9 +44,12 @@
 
 ```js
 1. let user='John', age=25;
-2. let user ='John' ,                                                                                                                                                             let age= 25 ;
-3. let user='John' ,                                                                                                                                                                  age=25 ;
-4. let user='John'                                                                                                                                                                   , age=25 ;
+2. let user ='John' ,
+   let age= 25 ;
+3. let user='John' ,
+       age=25 ;
+4. let user='John'
+        , age=25 ;
 ```
 
 <h3 align="center"><b> Rule for Variable</b></h3>
