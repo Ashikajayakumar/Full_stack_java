@@ -49,7 +49,7 @@ alert( undefined == 0 ); // false (3)
 
 
 
-                                                                     Conditional  Statement 
+                                                           Conditional  Statement 
 <h2 align="center"><b>If condition </b></h2>
 
 
