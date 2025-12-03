@@ -26,7 +26,7 @@ alert("Hello World in Popup");
    multi-line comment 
 */
 
-  <h3 align="center"><b>Variable</b></h3> 
+  <h2 align="center"><b>Variable</b></h2> 
 
 * The **Variable** is like a **CONTAINER** that holds data that can be **REUSED or UPDATED** .
 
@@ -56,27 +56,27 @@ alert("Hello World in Popup");
 
 <h3 align="center"><b>let vs var</b></h3>
 
-<h3 align="text-align:center;"><b>var</b></h3>
+<h2 align="text-align:center;"><b>var</b></h2>
 
 * **Function-scoped**: Available throughout the  "whole function" where it is declared.
 * **Can be redeclared**: Same variable name can be declared "multiple times".
 * **Hoisting**: Variable is hoisted to the top of its scope and initialized with **undefined**.
 
-<h5 align="text-align:center;"><b> Example var</b></h5>
+<h3 align="text-align:center;"><b> Example var</b></h3>
 
 var x = 10;                                                                                                                                                                  
 var x = 20; // Redeclaration allowed                                                                                                                                         
 console.log(x); // Output: 20                                                                                                                                               
 
 
-<h3 align="text-align:center;"><b>let</b></h3>
+<h2 align="text-align:center;"><b>let</b></h2>
 
 * **Block-scoped**: Only available within the block **{ }** where it is declared.
 * **Cannot be redeclared** in the same scope.
 * **Hoisting**: Variable is hoisted but **not initialized** (Temporal Dead Zone).
 
 
-<h5 align="text-align:center;"><b>let Example </b></h5>
+<h3 align="text-align:center;"><b>let Example </b></h3>
 
 let y = 10;                                                                                                                                                                  
 y = 20; // Updating is allowed                                                                                                                                               
@@ -104,7 +104,7 @@ myBirthday = '01.01.2001'; // Error: can't reassign the constant!
 
 * Use "const" when a variable’s value should **never change**, which also communicates this intention to others.
 
-<h5 align="center"><b>Uppercase Constants</b></h5>
+<h3 align="center"><b>Uppercase Constants</b></h3>
 
 * Constants can be used as aliases for **difficult-to-remember values** that are known before execution.
 * Naming convention: **all uppercase letters with underscores**.
