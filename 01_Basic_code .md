@@ -103,8 +103,8 @@ myBirthday = '01.01.2001'; // Error: can't reassign the constant!
 
 <h5 align="center"><b>Uppercase Constants</b></h5>
 
-*Constants can be used as aliases for **difficult-to-remember values** that are known before execution.
-*Naming convention: **all uppercase letters with underscores**.
+* Constants can be used as aliases for **difficult-to-remember values** that are known before execution.
+* Naming convention: **all uppercase letters with underscores**.
 
 <h3 align="text-align:center;"><b>Example </b></h3>                                                                                                     
 // Using a constant
@@ -114,7 +114,7 @@ alert(color); // Output: #FF7F00
 
 <h5 align="center"><b>Benefits</b></h5>
 
-***COLOR_ORANGE** is easier to remember than **"#FF7F00"**.
+* **COLOR_ORANGE** is easier to remember than **"#FF7F00"**.
 * Less chance of mistyping.
 * More meaningful when reading code.
 
@@ -122,8 +122,8 @@ alert(color); // Output: #FF7F00
 
 <h3 align="center"><b>When to Use Capitalized Constants</b></h3>
 
-***Capitalized constants** are used for "hard-coded values" known before execution.
-*Constants calculated at **runtime** but not reassigned should be named normally.
+* **Capitalized constants** are used for "hard-coded values" known before execution.
+* Constants calculated at **runtime** but not reassigned should be named normally.
 
 
 <h3 align="text-align:center;"><b>Example</b></h3>
