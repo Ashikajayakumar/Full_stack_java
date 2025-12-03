@@ -28,7 +28,7 @@ alert(NaN + 1)      // NaN
 
 <h2 style="center;"><b>2.Big Integer </b></h2>
 
-* In JavaScript, the “number” type cannot safely represent integer values larger than **(2⁵³ − 1)** (that’s 9007199254740991), or less than ** -(2⁵³ − 1)** for negatives.
+* In JavaScript, the “number” type cannot safely represent integer values larger than **(2⁵³ − 1)** (that’s 9007199254740991), or less than  **-(2⁵³ − 1)** for negatives.
   
 ### Example for Big Integer
 
