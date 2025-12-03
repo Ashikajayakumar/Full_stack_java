@@ -15,7 +15,7 @@
 
 * The number type represents both **integer** and **floating point numbers**.
 
-### Example for Number
+<h3 align="center"><b> Example for Number</b></h3>
 
 ```js
 alert(1/0)          // Infinity
@@ -30,7 +30,7 @@ alert(NaN + 1)      // NaN
 
 * In JavaScript, the “number” type cannot safely represent integer values larger than **(2⁵³ − 1)** (that’s 9007199254740991), or less than  **-(2⁵³ − 1)** for negatives.
   
-### Example for Big Integer
+<h3 align="center"><b> Example for Big Integer</b></h3>
 
 ```js
 console.log(9007199254740991 + 1); // 9007199254740992
@@ -46,7 +46,7 @@ console.log(9007199254740991 + 2); // 9007199254740992
    It can be empty, one character, or many characters.
   
 
-### Example for Big Integer
+<h3 align="center"><b> Example for Big Integer</b></h3>
 
 ```js
 let str = "Hello";                          // Double
@@ -59,7 +59,7 @@ let phrase = `can embed another ${str}`;    //Backticks
 * The boolean  types only have values **true** and **false** values.
   
 
-### Example for Boolean
+<h3 align="center"><b> Example for Boolean</b></h3>
 
 ```js
 let nameFieldChecked = true; // yes, name field is checked
@@ -70,7 +70,7 @@ let ageFieldChecked = false; // no, age field is not checked
 
 * The null - nothing,empty,value unknown
 
-### Example for null
+<h3 align="center"><b> Example for null</b></h3>
 
 ```js
 let age = null;
@@ -82,7 +82,7 @@ console.log(typeof age); // "object"
 
 * **undefined** means a variable is **declared but not assigned**.
 
-### Example for undefined
+<h3 align="center"><b> Example for undefined </b></h3>
 
 ```js
 let age;
@@ -97,7 +97,7 @@ alert(age); // shows "undefined"
 * **Primitive** values (string, number, boolean, null, undefined, bigint, symbol) store only one value.
 * But **objects** can store **multiple values** together — like a container.
   
-### Example for object
+<h3 align="center"><b> Example for object </b></h3>
 
 ```js
 let age;
@@ -110,7 +110,7 @@ alert(age); // shows "undefined"
 * Symbols create **unique identifiers**.
 * Even if two symbols have the same description, they are *never equal*.
 
-### Example for Symbol
+<h3 align="center"><b> Example for Symbol</b></h3>
 
 ```js
 let id1 = Symbol("id");
@@ -120,7 +120,7 @@ console.log(id1 === id2);  // false
 
 
 <h3 align="center"><b>Interaction </b></h3>
-<h3 style="text-align:center;"><b> 1. alert  </b></h3>
+<h3 style="center"><b> 1. alert  </b></h3>
 
 * ```alert ```  shows a message and waits for the user to press “OK”.
   
@@ -130,7 +130,7 @@ console.log(id1 === id2);  // false
 
 
 
-<h3 style="text-align:center;"><b> 2. prompt  </b></h3>
+<h3 style="centre"><b> 2. prompt  </b></h3>
 
 * ``` prompt ``` Ask for user input .
   
@@ -140,7 +140,7 @@ let test = prompt("Test");
 
 
   
-<h3 style="text-align:center;"><b> 3. Confirm  </b></h3>
+<h3 style="center"><b> 3. Confirm  </b></h3>
 
  * The function   ``` confirm ``` shows a modal window with a question and two buttons: **OK and Cancel**.
 
