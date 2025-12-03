@@ -79,7 +79,8 @@ alert( y - x ); // 2, binary minus subtracts values
 ```
 
   <h3 align=" center"><b>  C.Operator  </b></h3>
-Maths
+  
+                                                                              Maths
 The following math operations are supported:
 
 1. Addition +,
@@ -89,4 +90,24 @@ The following math operations are supported:
 5. Remainder %,
 6. Exponentiation **.
 
+
+```js
+alert( 5 % 2 ); // 1, the remainder of 5 divided by 2
+alert( 2 ** 2 ); // 2² = 4
+alert( 4 ** (1/2) ); // 2 (power of 1/2 is the same as a square root)
+
+
+let s = "my" + "string";
+alert(s); // mystring
+
+let x = 1;
+alert( +x ); // 1
+
+let y = -2;
+alert( +y ); // -2
+
+// Converts non-numbers
+alert( +true ); // 1
+alert( +"" );   // 0
+```
    
