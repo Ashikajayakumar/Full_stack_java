@@ -111,7 +111,7 @@ alert( +true ); // 1
 alert( +"" );   // 0
 ```
 
-<h2 style="text-align:center;"><b>2. Assignment</b></h2>
+<h2 style="center"><b>2. Assignment</b></h2>
 
 * assignment ```=``` is also an operator
 
@@ -141,7 +141,7 @@ alert( b ); // 4
 alert( c ); // 4
 ```
 
-<h2 style="text-align:centre"><b>  3. Modify-in-place </b></h2>
+<h2 style="centre"><b>  3. Modify-in-place </b></h2>
 
 * This notation can be shortened using the operators ```+=``` and ```*=```
   
@@ -152,7 +152,7 @@ n *= 2; // now n = 14 (same as n = n * 2)
 alert( n ); // 14
 ```
 
-<h2 style="text-align:centre"><b> 4. Increment/decrement</b>
+<h2 style="centre"><b> 4. Increment/decrement</b>
 
 ### Increment
 ```js
@@ -170,17 +170,17 @@ alert( counter ); // 1
 
 
 
-<h2 style="text-align:centre"><b> 5. Bitwise operators </b></h2>
+<h2 style="centre"><b> 5. Bitwise operators </b></h2>
 
 * Bitwise operators treat arguments as 32-bit integer numbers and work on the level of their binary representation.
 * These operators are not JavaScript-specific. They are supported in most programming languages.
 
 The list of operators:
 
-AND ( & )
-OR ( | )
-XOR ( ^ )
-NOT ( ~ )
-LEFT SHIFT ( << )
-RIGHT SHIFT ( >> )
-ZERO-FILL RIGHT SHIFT ( >>> )
+1. AND ( & )
+2. OR ( | )
+3. XOR ( ^ )
+4. NOT ( ~ )
+5. LEFT SHIFT ( << )
+6. RIGHT SHIFT ( >> )
+7. ZERO-FILL RIGHT SHIFT ( >>> )
