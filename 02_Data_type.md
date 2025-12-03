@@ -14,13 +14,15 @@
 <h2 style="text-align:center;"><b>1.Number </b></h2>
 * The number type represents both **integer** and **floating point numbers**.
 
-## Example for Number 
+### Example for Number
 
-alert(1/0)      // Infinity
-alert(Infinity) // Infinity
-alert(-1/0)     // -Infinity
-alert(NaN)      // NaN
-alert("abc"/2)  // NaN
-alert(NaN+1)    // NaN
+```js
+alert(1/0)          // Infinity
+alert(Infinity)     // Infinity
+alert(-1/0)         // -Infinity
+alert(NaN)          // NaN
+alert("abc"/2)      // NaN
+alert(NaN + 1)      // NaN
+
 
 
