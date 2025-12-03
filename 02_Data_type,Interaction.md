@@ -1,4 +1,4 @@
-                                                                 DATA TYPE IN JAVASCRIPT
+                                                                 DATA TYPE IN JAVASCRIPT AND INTERACTION
 
 ## Data Types
 
