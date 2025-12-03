@@ -1,6 +1,6 @@
-                                                     Logical
+                                                        Logical
 
-<h2 align="center"><b>“While-Loop”</b></h2>
+<h2 align="center"><b>While-Loop</b></h2>
 
 ```js
 let i = 0;
@@ -10,7 +10,7 @@ while (i < 3) { // shows 0, then 1, then 2
 }
 ```
 
-<h2 align="center"><b>“do- While-Loop”</b></h2>
+<h2 align="center"><b>do- While-Loop</b></h2>
 
 ```js
 let i = 0;
@@ -20,7 +20,7 @@ do {
 } while (i < 3);
 ```
 
-<h2 align="center"><b>“for Loop”</b></h2>
+<h2 align="center"><b>for Loop</b></h2>
 
 ```js
 for (let i = 0; i < 3; i++) { // shows 0, then 1, then 2
@@ -49,8 +49,7 @@ for (let i = 0; i < 10; i++) {
   alert(i); // 1, then 3, 5, 7, 9
 }
 ```
-
-                                            Switch
+<h2 align="center"><b> Switch  </b></h2>                                    
 
 ```js
 let a = 2 + 2;
