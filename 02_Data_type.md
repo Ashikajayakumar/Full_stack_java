@@ -119,8 +119,7 @@ console.log(id1 === id2);  // false
 ```
 
 
-<h2 style="center;"><b> Interaction  </b></h2>
-
+<h3 align="center"><b>Interaction </b></h3>
 <h3 style="text-align:center;"><b> 1. alert  </b></h3>
 
 * ```alert ```  shows a message and waits for the user to press “OK”.
