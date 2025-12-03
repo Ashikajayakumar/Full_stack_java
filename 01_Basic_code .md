@@ -1,14 +1,14 @@
 
                                                  How to Display HELLO WORLD
 
-<h3 align="center"><b>1.Console("")</b></h3>
+<h2 align="center"><b>1.Console("")</b></h2>
 
 *  **Console.log**  - Built-in JavaScript function used to print message to the **browser's console** .
 *  **console** - refer to browser's **debugging Console**.
 *  **log** - is the method of the **console** object that output a message.
 
 
- <h3 align="center"><b> 2. Alert(" "):</b></h3>
+ <h2 align="center"><b> 2. Alert(" "):</b></h2>
  
 * Built in  JavaScript function that display a **popup meassage box** to user.
 
