@@ -1,12 +1,22 @@
-                                                 JAVASCRIPT
+                                                  JAVASCRIPT
 
 <h2 align="center"><b> DEFINE A JAVASCRIPT</b></h2>
 
-
+* JavaScript lightweight, cross-platform, single-threaded programming language and  interpreted language .
 * "Logic of the Website".
 * Initially created to “MAKE WEB PAGES COME ALIVE” (i.e., make them interactive).
 * The programs written in JavaScript are called “Scripts.”
 * JavaScript is written inside a web page using HTML, and it runs **automatically when the page loads**.
+
+  <h4 align="center"><b>Client -side </b></h4>
+
+  * JavaScript works along with HTML and CSS. HTML adds structure to a web page, CSS styles it, and JavaScript brings it to life
+
+    by allowing users to interact with elements on the page, such as actions on clicking buttons, filling out forms.
+
+   <h4 align="center"><b> Server -side </b></h4>
+
+*   On the Server side (on Web Servers), JavaScript is used to access databases, file handling, and security features to send responses, to browsers.
 
 <h2 align="center"><b>Why is it called JavaScript?</b></h2>
 
