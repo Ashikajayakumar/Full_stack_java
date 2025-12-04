@@ -10,13 +10,13 @@
 
   <h4 align="center"><b>Client -side </b></h4>
 
-  * JavaScript works along with HTML and CSS. HTML adds structure to a web page, CSS styles it, and JavaScript brings it to life
+   * JavaScript works along with HTML and CSS. HTML adds structure to a web page, CSS styles it, and JavaScript brings it to life
 
     by allowing users to interact with elements on the page, such as actions on clicking buttons, filling out forms.
 
    <h4 align="center"><b> Server -side </b></h4>
 
-*   On the Server side (on Web Servers), JavaScript is used to access databases, file handling, and security features to send responses, to browsers.
+   * On the Server side (on Web Servers), JavaScript is used to access databases, file handling, and security features to send responses, to browsers.
 
 <h2 align="center"><b>Why is it called JavaScript?</b></h2>
 
